@@ -16,7 +16,7 @@ Extensive description of the problem can be found [here](https://miat.inrae.fr/s
 ## Use of heuristics:
 To speed up the search, a conflict-directed variable ordering heuristic like *dom/wdeg heuristic* is used.  
 This heuristic significantly reduces search time from several hours to only a few seconds.  
-It is utilized in all methods listed above during the search.  
+It is utilized in all methods listed above during the search.
 
 Reference to the related paper about the *dom/wdeg heuristic* is included below.
 
@@ -104,3 +104,18 @@ Reference to the related paper about the *dom/wdeg heuristic* is included below.
 
 ```bash
 $ python3 rlfap.py <instance> <method>
+
+Example commands to run for instance "11" using each of the methods:
+
+```bash
+$ python3 rlfap.py 11 FC
+$ python3 rlfap.py 11 MAC
+$ python3 rlfap.py 11 FC-CBJ
+$ python3 rlfap.py 11 Min-Conflicts
+```
+
+#### CODE CITATION
+I use _csp.py_, _search.py_ & _utils.py_ from https://github.com/aimacode/aima-python.
+
+#### REFERENCES
+Boussemart, F., Hemery, F., Lecoutre, C., & Sais, L. (2004). Boosting systematic search by weighting constraints. In ECAI (Vol. 16, pp. 146-150) (http://www.frontiersinai.com/ecai/ecai2004/ecai04/pdf/p0146.pdf)
