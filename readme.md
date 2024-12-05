@@ -104,6 +104,7 @@ Reference to the related paper about the *dom/wdeg heuristic* is included below.
 
 ```bash
 $ python3 rlfap.py <instance> <method>
+```
 
 Example commands to run for instance "11" using each of the methods:
 
