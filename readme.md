@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+
 # 📡 Radio Link Frequency Assignment Problem (RLFAP)
 
 The Radio Link Frequency Assignment Problem is a Constraint Satisfaction Problem (CSP) which consists of assigning frequencies to a set of radio links defined between pairs of sites in order to avoid interferences.  
